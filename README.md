@@ -35,4 +35,4 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 
 
 <IFRAME SRC="javascript:alert('window.origin');"></IFRAME>
-<iframe src=javascript&colon;alert&lpar;document&period;session&rpar;>
+<iframe src=javascript&colon;alert&lpar;document&period;domain&rpar;>
